@@ -1,0 +1,40 @@
+@media screen and (min-width:768px){
+}
+
+ul {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}　
+
+.footer　img{
+    width: 100%;
+    height: 50px;
+    padding-bottom: 10%;
+    background: url(../images/footer_bg.jpg) no-repeat center center/cover;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+
+.copy{
+    text-align: center;
+    width: 100%;
+    color:  blacks;
+    font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "MS P明朝", "MS 明朝", "serif";
+    font-size: 1vw;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translats(0,50%);
+    transform:translate(0,50%)
+
+    
+}
