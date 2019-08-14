@@ -1,40 +1,96 @@
 @media screen and (min-width:768px){
 }
 
-ul {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: space-around;
-    justify-content: space-around;
-}　
+body{
+    margin: 0;
+}
 
-.footer　img{
-    width: 100%;
-    height: 50px;
-    padding-bottom: 10%;
-    background: url(../images/footer_bg.jpg) no-repeat center center/cover;
+main{
+    margin: 0px 100px;
+}
+
+.neko1 {
+    text-align:center;
+}
+
+.neko1 img{
+    width: 50%;
 }
 
 h1{
-    color: red;
+    background color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+}
+
+ul{
+    text-align:center;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    text-align:center;
+    border: 2px solid #000;
+}
+
+table {
+    text-align:center;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px 70px;
+    border: solid 1px black;
+}
+
+table th{
+    background-color: aquamarine;
+}
+
+.a1{
+    margin-bottom: 100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.a2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 h2{
+    color: red;
+}
+
+h3{
     color: blue;
 }
 
-.copy{
-    text-align: center;
-    width: 100%;
-    color:  blacks;
-    font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "MS P明朝", "MS 明朝", "serif";
-    font-size: 1vw;
-    font-weight: bold;
+.neko2 img{
+    width: 200px 
+}
+
+.example {
+  position: relative;
+}
+
+.example p {
+    color: white;
     position: absolute;
     top: 50%;
-    left: 0;
-    -webkit-transform: translats(0,50%);
-    transform:translate(0,50%)
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
 
-    
+.example img {
+    width: 100%;
 }
