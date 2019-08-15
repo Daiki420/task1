@@ -36,8 +36,14 @@ li{
     border: 2px solid #000;
 }
 
+.hyou1{
+    text-align:center;   
+}
+
 table {
     text-align:center;
+    max-width: 50%;
+    margin: 0 auto;
     border-collapse: collapse;
 }
 
@@ -93,4 +99,26 @@ h3{
 
 .example img {
     width: 100%;
+}
+
+#to-pagetop {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	display: none;
+}
+ 
+#to-pagetop a {
+	padding: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+	display: block;
+	background-color: white;
+	color: black;
+}
+ 
+#to-pagetop a:hover {
+	background-color: #adddff;
+	color: #003459;
 }
