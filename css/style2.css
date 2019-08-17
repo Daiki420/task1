@@ -1,0 +1,122 @@
+@media screen and (min-width:768px){
+
+body{
+  margin:0;
+}
+
+header{
+  background-color:#C8F5F2;
+  padding:2% 0 2% 5%;
+}
+
+h1{
+  color:#848484;
+  margin:0;
+}
+
+main{
+  max-width:1000px;
+  margin:0 auto;
+}
+
+.gnavi{
+  margin:30px 0;
+}
+
+.gnavi ul{
+  list-style:none;
+  padding:0;
+}
+
+.gnavi ul li{
+  float:left;
+  border:1px solid #848484;
+  width:22%;
+  margin-left:2.2%;
+  text-align:center;
+}
+
+.gnavi ul li a{
+  text-decoration:none;
+  color:#848484;
+  display:block;
+  padding:10px 0;
+}
+
+.gnavi ul li a:hover{
+  background-color:#848484;
+  color:#FFFFFF;
+}
+
+table {
+  width:100%;
+  color:#848484;
+  text-align:center;
+  border:1px solid #848484;
+  border-collapse:collapse;
+}
+
+table th{
+  background-color:#A9F5A9;
+  border:2px solid #848484;
+  color:#FFFFFF;
+}
+
+table tr td{
+  border:2px solid #848484;
+}
+
+section {
+  margin:40px;
+}
+
+section h2{
+  color:#F5A9F2;
+}
+
+section h3{
+  color:#A9BCF5;
+}
+
+section p{
+  float:left;
+  width:55%
+}
+
+section img{
+  float:right;
+  width:45%;
+}
+
+.jump{
+  display:block;
+  text-align:right;
+}
+
+.jump a{
+  text-decoration:none;
+  color:#000000;
+  font-weight:600;
+}
+
+footer{
+  padding: 40px 0;
+  background-image:url("../images/footer_bg.jpg");
+  background-size:cover;
+}
+
+footer p{
+  text-align: center;
+  color:#FFFFFF;
+}
+
+/* micro clearfx */
+.cf:before,
+.cf:after{
+		content: "";
+		display: table;
+}
+.cf:after{ clear: both; }
+.cf{ zoom: 1; } /* For IE 6/7 */
+
+}
